@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Kumar Kumawat | Portfolio</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animated Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header id="header">
+        <a href="#" class="logo">K</a>
+        
+        <nav id="navbar">
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-actions">
+            <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero visible">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Krish Kumar <span>Kumawat</span></h1>
+                <h2>Chemical Engineering Student</h2>
+                <p class="objective">
+                    A motivated undergraduate at Pandit Deendayal Energy University (PDEU) interested in process engineering and industrial chemical production. Seeking opportunities to apply knowledge of chemical process design, reaction engineering, and industrial operations to real-world challenges.
+                </p>
+                <div class="hero-btns">
+                    <!-- Link to PDF with download attribute -->
+                    <a href="./23BCH058_Krish Kumar Kumawat _Chemical_9.06.pdf" download="Krish_Kumawat_Resume.pdf" class="btn btn-primary">
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        Contact Info
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Contact Info -->
+        <section id="about" class="fade-in">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope icon-glow"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:23bch058@spt.pdpu.ac.in" style="display:block; margin-bottom:0.5rem;">23bch058@spt.pdpu.ac.in</a>
+                    <a href="mailto:krishk2985@gmail.com" style="display:block;">krishk2985@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone icon-glow"></i>
+                    <h3>Phone</h3>
+                    <a href="tel:+918058709780" style="display:block; margin-bottom:0.5rem;">+91 8058709780</a>
+                    <p style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.95rem;">Roll No: 23BCH058</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot icon-glow"></i>
+                    <h3>Location</h3>
+                    <p>Gandhinagar, Gujarat</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="fade-in">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card glass">
+                        <h3>B.Tech in Chemical Engineering <span class="date">Expected 2027</span></h3>
+                        <h4>Pandit Deendayal Energy University (PDEU), Gandhinagar</h4>
+                        <p>Currently in Third Year.</p>
+                        <p style="margin-top:0.5rem; font-weight:600; color:var(--text-primary);">CGPA: 9.06</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card glass">
+                        <h3>Senior Secondary (Class XII) <span class="date">Completed 2023</span></h3>
+                        <h4>St. Anselm's Senior Secondary School, Abu Road</h4>
+                        <p>Grade: 86%</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card glass">
+                        <h3>Secondary (Class X) <span class="date">Completed</span></h3>
+                        <h4>St. Anselm's Senior Secondary School, Abu Road</h4>
+                        <p>Grade: 90%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="fade-in">
+            <h2 class="section-title">Skills & Expertise</h2>
+            
+            <div class="skills-wrapper">
+                <div class="skills-category card glass">
+                    <h3><i class="fa-solid fa-flask"></i> Technical Skills & Interests</h3>
+                    <div class="tags">
+                        <span class="skill-tag">Chemical Process Calculations</span>
+                        <span class="skill-tag">Chemical Reaction Engineering</span>
+                        <span class="skill-tag">Heat & Mass Transfer</span>
+                        <span class="skill-tag">Process Equipment Design</span>
+                        <span class="skill-tag">Basics of DWSIM</span>
+                    </div>
+                </div>
+
+                <div class="skills-category card glass">
+                    <h3><i class="fa-solid fa-laptop-code"></i> Software Skills & Languages</h3>
+                    <div class="tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">Aspen Plus</span>
+                        <span class="skill-tag">Microsoft Excel</span>
+                        <span class="skill-tag" style="background: rgba(37,99,235,0.1);">Fluent English & Hindi</span>
+                    </div>
+                </div>
+                
+                <div class="skills-category card glass">
+                    <h3><i class="fa-solid fa-brain"></i> Core Strengths</h3>
+                    <div class="tags">
+                        <span class="skill-tag">Analytical Thinking</span>
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">Plant Operations Interest</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Adaptability & Communication</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Leadership -->
+        <section id="experience" class="fade-in">
+            <h2 class="section-title">Experience & Achievements</h2>
+            <div class="card-grid">
+
+                <div class="card glass hover-lift" style="grid-column: 1 / -1;">
+                    <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
+                    <h3>Industrial Intern – Aarti Pharmalabs Ltd.</h3>
+                    <h4>June 2025 | Vapi, Gujarat</h4>
+                    <ul style="color: var(--text-secondary); margin-left:1.5rem; margin-top:1rem; font-size:1.05rem; line-height: 1.6;">
+                        <li>Learned about the working principles, applications, and safety aspects of industrial equipment such as reactors, heat exchangers, dryers, and condensers.</li>
+                        <li>Visited multiple process chambers and production units, observing large-scale manufacturing and process control in active pharmaceutical ingredient (API) production.</li>
+                        <li>Developed a practical understanding of industrial processes and equipment operation fundamentals.</li>
+                    </ul>
+                </div>
+
+                <div class="card glass hover-lift">
+                    <div class="card-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <h3>Understanding Incubation & Entrepreneurship</h3>
+                    <h4>NPTEL (IIT Bombay) | July-Oct 2025</h4>
+                    <p>Successfully completed certification exploring entrepreneurship principles.</p>
+                </div>
+            
+                <div class="card glass hover-lift">
+                    <div class="card-icon"><i class="fa-solid fa-trophy"></i></div>
+                    <h3>Ideathon Competition</h3>
+                    <h4>First Runner Up</h4>
+                    <p>Showcased innovative problem-solving and technical ideation in a competitive environment.</p>
+                </div>
+                
+                <div class="card glass hover-lift">
+                    <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>Science & Technology Council (SnT)</h3>
+                    <h4>Sub-committee Member</h4>
+                    <p>Organized and participated in technical events and collaborative engineering activities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h2>Krish Kumar Kumawat</h2>
+            <p>Aspiring Chemical Engineer | Roll No. 23BCH058</p>
+            <div class="social-links">
+                <a href="#about" aria-label="Contact"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+918058709780" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Krish Kumar Kumawat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
